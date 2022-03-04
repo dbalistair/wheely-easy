@@ -29,3 +29,10 @@ In Recap:
 - - To simplify this example we drag-and-drop the .whl file into the Create Library UI in the workspace, getting the stored path
 - - We %pip install the .whl file, adjusting the path
 - - We import my_functions from test_wheel and can use the functions in our notebook
+
+# To Do:
+In order to be able to get this wheel to be runnable from Databricks Jobs, we might need to deal with entry points, something this is not currently doing.
+- https://databricks.com/blog/2022/02/14/deploy-production-pipelines-even-easier-with-python-wheel-tasks.html
+- https://docs.microsoft.com/en-us/azure/databricks/jobs
+- https://realpython.com/pypi-publish-python-package/#configuring-your-package
+- https://amir.rachum.com/blog/2017/07/28/python-entry-points/
