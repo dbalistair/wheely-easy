@@ -2,6 +2,8 @@
 
 Crash course on creating a Python wheel file
 https://www.realpythonproject.com/how-to-create-a-wheel-file-for-your-python-package-and-import-it-in-another-project/
+- python setup.py bdist_wheel --universal
+
 
 How to bring libraries into the Databricks workspace (note, there are various ways to accomplish this)
 https://docs.microsoft.com/en-us/azure/databricks/libraries/workspace-libraries
