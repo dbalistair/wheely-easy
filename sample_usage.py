@@ -1,5 +1,16 @@
-from test_wheel.my_functions import *
+from alistair_easy_wheel.my_functions import *
 
-print(fn1())
 
-print(fn2("hello"))
+def main():
+
+    print(fn1())
+
+    print(fn2("hello"))
+
+
+if __name__ == "__main__":
+
+    main()
+
+
+
