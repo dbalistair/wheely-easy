@@ -5,3 +5,7 @@ def fn1():
 def fn2(input):
     output = f"you provided: {input}"
     return output
+
+
+def fn_spark():
+    return spark.range(42)
